@@ -11,14 +11,22 @@
   <meta charset="utf-8">
   
   
-  <title>SENN</title>
+  <title>梅林软件中心离线安装 | SENN</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="SENN">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="梅林软件中心离线安装 软件中心更新过后，发现一些插件无法安装了。   好像是开启了河蟹模式？">
+<meta property="og:type" content="article">
+<meta property="og:title" content="梅林软件中心离线安装">
+<meta property="og:url" content="http://example.com/2023/08/27/%E6%A2%85%E6%9E%97%E8%BD%AF%E4%BB%B6%E4%B8%AD%E5%BF%83%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85/index.html">
 <meta property="og:site_name" content="SENN">
+<meta property="og:description" content="梅林软件中心离线安装 软件中心更新过后，发现一些插件无法安装了。   好像是开启了河蟹模式？">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-08-27T13:34:32.000Z">
+<meta property="article:modified_time" content="2023-08-27T14:35:59.680Z">
 <meta property="article:author" content="SENN">
+<meta property="article:tag" content="路由器">
+<meta property="article:tag" content="merlin">
+<meta property="article:tag" content="shadowsocks">
+<meta property="article:tag" content="clash">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="SENN" type="application/atom+xml">
@@ -35,14 +43,14 @@
   
   
     
-<div id="banner" class=" is_home ">
+<div id="banner" class="">
   <img src="/img/background_1.jpg" itemprop="image">
   <div id="banner-dim"></div>
 </div>
  
    
   <div id="main-grid" class="shadow   ">
-    <div id="nav" class=" is_home "  >
+    <div id="nav" class=""  >
       <navbar id="navbar">
   <nav id="title-nav">
     <a href="/">
@@ -232,154 +240,11 @@
 </sidebar>
     </div>
     <div id="content-body">
-      
-   
-
-<article id="post-HACS的安装" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-   
-  <div class="article-inner">
-    <div class="article-main">
-      <header class="article-header">
-        
-<div class="main-title-bar">
-  <div class="main-title-dot"></div>
-  
-    
-      <h1 itemprop="name">
-        <a class="p-name article-title" href="/2023/08/27/HACS%E7%9A%84%E5%AE%89%E8%A3%85/">HACS的安装</a>
-      </h1>
-    
-  
-</div>
-
-        <div class='meta-info-bar'>
-          <div class="meta-info">
-  <time class="dt-published" datetime="2023-08-27T13:35:17.000Z" itemprop="datePublished">2023-08-27</time>
-</div>
-          <div class="need-seperator meta-info">
-            <div class="meta-cate-flex">
-  
-  <a class="meta-cate-link" href="/categories/%E8%BD%AF%E4%BB%B6/">软件</a>><a class="meta-cate-link" href="/categories/%E8%BD%AF%E4%BB%B6/Home-assistant/">Home assistant</a>
-   
-</div>
-  
-          </div>
-          <div class="wordcount need-seperator meta-info">
-            433 词 
-          </div>
-        </div>
-        
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/HACS/" rel="tag">HACS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Home-assistant/" rel="tag">Home assistant</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hass/" rel="tag">hass</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85/" rel="tag">智能家居</a></li></ul>
-
-      </header>
-      <div class="e-content article-entry" itemprop="articleBody">
-        
-          <h1 id="安装HACS遇到的问题总结"><a href="#安装HACS遇到的问题总结" class="headerlink" title="安装HACS遇到的问题总结"></a>安装HACS遇到的问题总结</h1><hr>
-<!-- TOC -->
-
-<ul>
-<li><a href="#%E5%AE%89%E8%A3%85hacs%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93">安装HACS遇到的问题总结</a><br>  - <a href="#%E6%88%91%E7%9A%84home-assistant%E6%80%8E%E4%B9%88%E4%B8%8D%E5%B8%A6hacs">我的Home assistant怎么不带HACS</a><br>  - <a href="#%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%AE%89%E8%A3%85">命令行安装</a><br>      - <a href="#%E4%BD%BF%E7%94%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%AE%89%E8%A3%85">使用命令行安装</a><br>  - <a href="#%E9%95%9C%E5%83%8F">镜像</a></li>
-</ul>
-<!-- /TOC -->
-        
-      </div>
-
-         
-    </div>
-    
-     
-    <a class="right-panel  non-pic  "
-      
-      href="/2023/08/27/HACS%E7%9A%84%E5%AE%89%E8%A3%85/" 
-    >
        
-      <i class="fa-solid fa-angle-right non-pic"></i>
-       
-    </a>
-     
-  </div>
-  
-</article>
-
- 
-
-   
-
-<article id="post-Hinas-修改页面" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-   
-  <div class="article-inner">
-    <div class="article-main">
-      <header class="article-header">
-        
-<div class="main-title-bar">
-  <div class="main-title-dot"></div>
-  
-    
-      <h1 itemprop="name">
-        <a class="p-name article-title" href="/2023/08/27/Hinas-%E4%BF%AE%E6%94%B9%E9%A1%B5%E9%9D%A2/">Hinas_修改页面</a>
-      </h1>
-    
-  
-</div>
-
-        <div class='meta-info-bar'>
-          <div class="meta-info">
-  <time class="dt-published" datetime="2023-08-27T13:34:56.000Z" itemprop="datePublished">2023-08-27</time>
-</div>
-          <div class="need-seperator meta-info">
-            <div class="meta-cate-flex">
-  
-  <a class="meta-cate-link" href="/categories/%E8%BD%AF%E4%BB%B6/">软件</a>><a class="meta-cate-link" href="/categories/%E8%BD%AF%E4%BB%B6/%E6%9C%BA%E9%A1%B6%E7%9B%92/">机顶盒</a>
-   
-</div>
-  
-          </div>
-          <div class="wordcount need-seperator meta-info">
-            118 词 
-          </div>
-        </div>
-        
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hinas/" rel="tag">Hinas</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/NAS/" rel="tag">NAS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%9C%BA%E9%A1%B6%E7%9B%92/" rel="tag">机顶盒</a></li></ul>
-
-      </header>
-      <div class="e-content article-entry" itemprop="articleBody">
-        
-          <h1 id="Hinas-页面修改"><a href="#Hinas-页面修改" class="headerlink" title="Hinas_页面修改"></a>Hinas_页面修改</h1><hr>
-<!-- TOC -->
-
-<ul>
-<li><a href="#hinas_%E9%A1%B5%E9%9D%A2%E4%BF%AE%E6%94%B9">Hinas_页面修改</a><ul>
-<li><a href="#nas%E5%AF%BC%E8%88%AA%E9%A1%B5">NAS导航页</a></li>
-<li><a href="#%E7%BB%88%E7%AB%AF%E7%99%BB%E9%99%86%E6%AC%A2%E8%BF%8E%E9%A1%B5">终端登陆欢迎页</a></li>
-</ul>
-</li>
-</ul>
-<!-- /TOC -->
-        
-      </div>
-
-         
-    </div>
-    
-     
-    <a class="right-panel  non-pic  "
-      
-      href="/2023/08/27/Hinas-%E4%BF%AE%E6%94%B9%E9%A1%B5%E9%9D%A2/" 
-    >
-       
-      <i class="fa-solid fa-angle-right non-pic"></i>
-       
-    </a>
-     
-  </div>
-  
-</article>
-
- 
-
-   
 
 <article id="post-梅林软件中心离线安装" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  
+    
    
   <div class="article-inner">
     <div class="article-main">
@@ -389,8 +254,8 @@
   <div class="main-title-dot"></div>
   
     
-      <h1 itemprop="name">
-        <a class="p-name article-title" href="/2023/08/27/%E6%A2%85%E6%9E%97%E8%BD%AF%E4%BB%B6%E4%B8%AD%E5%BF%83%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85/">梅林软件中心离线安装</a>
+      <h1 class="p-name article-title" itemprop="headline name">
+        梅林软件中心离线安装
       </h1>
     
   
@@ -421,6 +286,23 @@
           <h1 id="梅林软件中心离线安装"><a href="#梅林软件中心离线安装" class="headerlink" title="梅林软件中心离线安装"></a>梅林软件中心离线安装</h1><hr>
 <p>软件中心更新过后，发现一些插件无法安装了。  </p>
 <p>好像是开启了<del>河蟹模式</del>？  </p>
+<span id="more"></span>
+
+<p>即使是修改了名字也不行，提示<code>含有非法关键词</code></p>
+<h3 id="检测脚本"><a href="#检测脚本" class="headerlink" title="检测脚本"></a>检测脚本</h3><p>检测脚本在<code>/koolshare/scripts/ks_tar_install.sh</code>文件中  </p>
+<p><strong>代码片段如下：</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">detect_package()&#123;</span><br><span class="line">        local TEST_WORD=<span class="string">&quot;$1&quot;</span></span><br><span class="line">        local ILLEGAL_KEYWORDS=<span class="string">&quot;ss|违禁软件|违禁软件|违禁软件r|违禁软件|trojan|clash|wireguard|koolss|brook&quot;</span></span><br><span class="line">        local KEY_MATCH=$(echo <span class="string">&quot;$&#123;TEST_WORD&#125;&quot;</span> | grep -Eo <span class="string">&quot;$ILLEGAL_KEYWORDS&quot;</span>)</span><br><span class="line">       </span><br><span class="line">        <span class="keyword">if</span> [ -n <span class="string">&quot;$KEY_MATCH&quot;</span> ]; then</span><br><span class="line">                echo_date =======================================================</span><br><span class="line">                echo_date <span class="string">&quot;检测到离线安装包：$&#123;soft_name&#125; 含非法关键词！！！&quot;</span></span><br><span class="line">                echo_date <span class="string">&quot;根据法律规定，koolshare软件中心将不会安装此插件！！！&quot;</span></span><br><span class="line">                echo_date <span class="string">&quot;删除相关文件并退出...&quot;</span></span><br><span class="line">                echo_date =======================================================</span><br><span class="line">                clean</span><br><span class="line">                exit <span class="number">1</span></span><br><span class="line">        fi</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<br>
+
+<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><ol>
+<li>在路由器<code>系统管理</code>-<code>系统设置</code>里打开<code>Allow SSH password login</code></li>
+<li><strong>SHH</strong>进入到路由器终端 [我用的 <a href="putty.org">Putty</a>]</li>
+<li>在<strong>Putyy</strong>中使用路由器的IP地址来连接</li>
+<li>输入登陆路由器的账号、密码</li>
+<li>输入 <code>sed -i &#39;s/\tdetect_package/\t# detect_package/g&#39; /koolshare/scripts/ks_tar_install.sh</code></li>
+<li>重新离线安装插件，就不会被拦截了</li>
+</ol>
+
         
       </div>
 
@@ -428,85 +310,42 @@
     </div>
     
      
-    <a class="right-panel  non-pic  "
-      
-      href="/2023/08/27/%E6%A2%85%E6%9E%97%E8%BD%AF%E4%BB%B6%E4%B8%AD%E5%BF%83%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85/" 
-    >
-       
-      <i class="fa-solid fa-angle-right non-pic"></i>
-       
-    </a>
-     
   </div>
+  
+    
+<nav id="article-nav">
+  <a class="article-nav-btn left "
+    
+      href="/2023/08/27/Hinas-%E4%BF%AE%E6%94%B9%E9%A1%B5%E9%9D%A2/"
+      title="Hinas_修改页面"
+     >
+    <i class="fa-solid fa-angle-left"></i>
+    <p class="title-text">
+      
+        Hinas_修改页面
+        
+    </p>
+  </a>
+  <a class="article-nav-btn right "
+    
+      href="/2023/08/22/hello-world/"
+      title="Hello World"
+     >
+
+    <p class="title-text">
+      
+        Hello World
+        
+    </p>
+    <i class="fa-solid fa-angle-right"></i>
+  </a>
+</nav>
+
+
   
 </article>
 
  
-
-   
-
-<article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-   
-  <div class="article-inner">
-    <div class="article-main">
-      <header class="article-header">
-        
-<div class="main-title-bar">
-  <div class="main-title-dot"></div>
-  
-    
-      <h1 itemprop="name">
-        <a class="p-name article-title" href="/2023/08/22/hello-world/">Hello World</a>
-      </h1>
-    
-  
-</div>
-
-        <div class='meta-info-bar'>
-          <div class="meta-info">
-  <time class="dt-published" datetime="2023-08-22T11:05:36.899Z" itemprop="datePublished">2023-08-22</time>
-</div>
-          <div class="need-seperator meta-info">
-            <div class="meta-cate-flex">
-  
-    未分类 
-   
-</div>
-  
-          </div>
-          <div class="wordcount need-seperator meta-info">
-            79 词 
-          </div>
-        </div>
-        
-      </header>
-      <div class="e-content article-entry" itemprop="articleBody">
-        
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-        
-      </div>
-
-         
-    </div>
-    
-     
-    <a class="right-panel  non-pic  "
-      
-      href="/2023/08/22/hello-world/" 
-    >
-       
-      <i class="fa-solid fa-angle-right non-pic"></i>
-       
-    </a>
-     
-  </div>
-  
-</article>
-
- 
-
-
-
     </div>
     <div id="footer-wrapper">
       <footer id="footer">
